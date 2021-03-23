@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.card{
+  color:black;
+}
+.submit-button{
+  margin: 20pt;
+}
