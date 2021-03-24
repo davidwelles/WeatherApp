@@ -14,8 +14,9 @@
 }
 
 .App-header {
+  
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +39,16 @@
 }
 .card{
   color:black;
+  height: 100vh;
+  width: auto;
 }
 .submit-button{
   margin: 20pt;
+}
+/* .CardImages{
+  width: 100px;
+  height: auto;
+} */
+.footerBoi{
+  font-size: small;
 }
