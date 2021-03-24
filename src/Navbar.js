@@ -1,24 +1,21 @@
-import React, { Component } from 'react';
- 
-import { 
+import React, { Component } from "react";
+import "./Navbar.css";
+import logo from "./WeatherIcons/Logo.png";
+import {
   BrowserRouter as Router, // we are aliasing this module for a cleaner call
   Route,
-  Link
+  Link,
   // etc.
-} from 'react-router-dom';
-
+} from "react-router-dom";
 class Navbar extends Component {
-    render(){
-      return(
-
-            <div className="nav">
-                <Link to="/">Home</Link> |
-                
-            </div>
-
-      );
-    }
+  render() {
+    return (
+      <div className="nav">
+        <ul>
+        <Link to="/"><img src={logo}></img></Link>
+        </ul>
+      </div>
+    );
+  }
 }
-
 export default Navbar;
-
